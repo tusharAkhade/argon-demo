@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.header-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.seachbar-container {
+  width: 250px;
+  transition: width 0.3s;
+}
+
+.seachbar-container:focus-within {
+  width: 400px;
+  /* border: 10px solid red; */
+}
+
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+::-webkit-scrollbar-track {
+  background: #fff;
+  /* width: 5px; */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #dcdcdc;
+  border-radius: 3px;
+}
+
+.list-item-text {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.div-position {
+  margin-left: 250px;
+  margin-top: 78px;
+  max-width: calc(100% - 250px);
+  /* border: 1px solid red; */
+}
+
+.content-position {
+  background-color: #e9ecef;
+}
+
+.subheader-main-container {
+  background-color: #5e74e4;
+  padding-bottom: 80px;
+}
+
+.subheader-btn {
+  font-size: 13px;
+  color: #5e72e4;
+  font-weight: 600;
+  height: 30px;
+  padding: 0 10px;
+  border-radius: 5px;
+  border: none;
+}
+.subheader-btn:hover {
+  color: rgb(49, 49, 49);
+  transform: translate(0px, -2px);
+}
